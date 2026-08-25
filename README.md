@@ -26,13 +26,13 @@ but reachable from any browser on `http://127.0.0.1:5000` with no desktop GUI fr
 
 ### ⚡ Features :
 ```text
-  - Startup capture setup** — a modal asks you to pick the interface and an optional BPF filter (with quick presets: TCP/UDP/Web/DNS/ICMP) right when the app opens, before anything else happens
-  - **Light / dark theme toggle** (☀ / ☾ button in the header), remembered between visits
+  - Startup capture setup — a modal asks you to pick the interface and an optional BPF filter (with quick presets: TCP/UDP/Web/DNS/ICMP) right when the app opens, before anything else happens
+  - Light / dark theme toggle (☀ / ☾ button in the header), remembered between visits
   - Live packet capture over any local interface, with BPF filter syntax (`tcp port 443`, `udp`, `host 8.8.8.8`, …)
   - Real-time packet list pushed over WebSocket, batched every ~120 ms for smooth scrolling even at high packet rates
   - Protocol-coded rows (TCP / UDP / DNS / HTTP / TLS / ICMP / ARP / IPv6) with quick filter chips that show a live per-protocol count
   - New packets briefly flash so you can track live traffic without losing your place
-  - **Auto-scroll toggle** — pause auto-scroll to inspect packets without the list jumping around
+  - Auto-scroll toggle — pause auto-scroll to inspect packets without the list jumping around
   - Click any packet → full layer-by-layer detail tree + hex/ASCII dump, resizable panes
   - Live "pulse" throughput graph in the header
   - Display filter box (search by IP, port, or info text) — client-side, instant
