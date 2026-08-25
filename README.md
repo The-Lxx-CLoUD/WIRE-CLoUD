@@ -2,6 +2,8 @@
 <p align="center">
   <i>A Wireshark-style, web-based network traffic analyzer — runs locally on Windows & Linux. </i>
 </p>
+<p align="center">
+  <img src="fl/2.png" width="1080">
 
 
 ### 📃 Overview :
@@ -24,7 +26,7 @@ but reachable from any browser on `http://127.0.0.1:5000` with no desktop GUI fr
 
 ### ⚡ Features :
 ```text
-  - **Startup capture setup** — a modal asks you to pick the interface and an optional BPF filter (with quick presets: TCP/UDP/Web/DNS/ICMP) right when the app opens, before anything else happens
+  - Startup capture setup** — a modal asks you to pick the interface and an optional BPF filter (with quick presets: TCP/UDP/Web/DNS/ICMP) right when the app opens, before anything else happens
   - **Light / dark theme toggle** (☀ / ☾ button in the header), remembered between visits
   - Live packet capture over any local interface, with BPF filter syntax (`tcp port 443`, `udp`, `host 8.8.8.8`, …)
   - Real-time packet list pushed over WebSocket, batched every ~120 ms for smooth scrolling even at high packet rates
